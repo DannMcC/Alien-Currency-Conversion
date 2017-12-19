@@ -1,6 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+
 
 namespace CodeChallenge
 {
@@ -22,13 +21,6 @@ namespace CodeChallenge
                 1, 10, 0
             };
 
-            var i = 0;
-
-            foreach (var item in GetDataSets(data))
-            {
-                Console.WriteLine($"Data Set {++i}:");
-                Console.WriteLine(item);
-            }
         }
 
         public static IEnumerable<int> GetDataSets(int[] data)
